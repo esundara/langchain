@@ -1,5 +1,8 @@
 # Lang Chain Python Script to Get results from Open AI
 # required packages: pip install langchain langchain-openai langchain-community
+"""
+As noted by esundara: LangChain is an open-source framework designed for building applications powered by Large Language Models (LLMs). It facilitates providing input to LLM models and simplifies both data integration and prompt engineering for AI applications. LangChain can also be used to supply additional context to LLMs. Leveraging its templates and libraries, developers can construct complex applications. It's important to remember that LangChain is a framework, not an LLM itself; it offers a standardized way to interface with various LLMs rather than providing its own language models.
+"""
 
 from langchain_openai import OpenAI
 from langchain.prompts import PromptTemplate
